@@ -16,7 +16,8 @@ const anotherId = Symbol('1234') // both are not equal.
 const bigNumber = 324456768765433n //BigInt
 
 
-// non-primitive (reference) :  this are the those value jinka reference memory directly allowcate kiya ja sakta hai.
+// non-primitive (reference) :  this are the those value jinka reference memory 
+// directly allowcate kiya ja sakta hai.
 
 // ex - Arrays, Objects, Functions
 
