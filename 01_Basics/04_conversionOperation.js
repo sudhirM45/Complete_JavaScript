@@ -1,7 +1,10 @@
 /*
-const: Declares a block-scoped variable that cannot be reassigned after its initial assignment. The variable's value is constant, but if it is an object or array, its contents can still be modified.
+const: Declares a block-scoped variable that cannot be reassigned after its initial assignment.
+The variable's value is constant, but if it is an object or array, its contents can still be
+modified.
 
-let: Declares a block-scoped variable that can be reassigned. It's generally used for variables that need to be updated or changed.
+let: Declares a block-scoped variable that can be reassigned. It's generally used for variables
+that need to be updated or changed.
 */
 
 // let score = 33
@@ -46,6 +49,8 @@ let: Declares a block-scoped variable that can be reassigned. It's generally use
 
 // === -> tripple equal to cheak strictly both values and datatypes
 
-// ex-> console.log("3" === 3); yaha pe === check karga ki dono values same hai ya nahi o datatype bhi check karega dono same datatype hai to hi ye conversion karega nahi to vo allow nahi karega.
+// ex-> console.log("3" === 3); yaha pe === check karga ki dono values same hai ya nahi o 
+// datatype bhi check karega dono same datatype hai to hi ye conversion karega nahi to vo allow 
+// nahi karega.
 
  
