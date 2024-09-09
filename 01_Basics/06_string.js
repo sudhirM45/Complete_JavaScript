@@ -1,5 +1,6 @@
 // string in javascript:
-//In JavaScript, a string is a sequence of characters used to represent text. Strings are one of the fundamental data types in JavaScript and are used frequently for operations like manipulation, formatting, searching, and comparison.
+//In JavaScript, a string is a sequence of characters used to represent text. Strings are one of the fundamental data types in JavaScript and
+//are used frequently for operations like manipulation, formatting, searching, and comparison.
 
 // Creating Strings:
 // Strings in JavaScript can be created using:
@@ -15,7 +16,8 @@
 
 // Features of Strings in JavaScript:
 // 1. Immutability:
-// Strings are immutable, meaning that once a string is created, it cannot be modified. Any operation that appears to modify a string actually creates a new string.
+// Strings are immutable, meaning that once a string is created, it cannot be modified. Any operation that appears to modify a string actually 
+// creates a new string.
 // 2. String Length:
 // Use the .length property to find the length of a string.
 
@@ -101,15 +103,18 @@
 
 /*
     5. trim:
-    The trim method in JavaScript is used to remove whitespace characters from both ends of a string. It does not modify the original string but returns a new string with the leading and trailing whitespace removed.
+    The trim method in JavaScript is used to remove whitespace characters from both ends of a string. It does not modify the original string but 
+    returns a new string with the leading and trailing whitespace removed.
 
     6. replace:
 
-    The replace method in JavaScript is used to search for a specified substring or regular expression pattern within a string and replace it with a new substring.
+    The replace method in JavaScript is used to search for a specified substring or regular expression pattern within a string and replace it with a 
+    new substring.
 
     7. includes:
 
-    The includes method in JavaScript is used to determine whether a string contains a specified substring. It returns a boolean (true or false) based on whether the substring is found within the string.
+    The includes method in JavaScript is used to determine whether a string contains a specified substring. It returns a boolean 
+    (true or false) based on whether the substring is found within the string.
 
     8. split:
     The split method in JavaScript is used to divide a string into an array of substrings based on a specified delimiter (separator).
