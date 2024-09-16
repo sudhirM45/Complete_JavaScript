@@ -1,4 +1,5 @@
-// In JavaScript, an object is a collection of properties, where each property has a key (or name) and a value. Objects allow you to group related data and functionality together.
+// In JavaScript, an object is a collection of properties, where each property has a key (or name) and a value. 
+// Objects allow you to group related data and functionality together.
 
 
 // object literals:
