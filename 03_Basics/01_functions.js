@@ -3,7 +3,8 @@
 /*  In JavaScript, functions are fundamental building 
     blocks that allow you to encapsulate code into reusable blocks. 
     A function can take input, process it, and return a result. 
-    Functions are objects in JavaScript, and they can be assigned to variables, passed as arguments, and returned from other functions. */
+    Functions are objects in JavaScript, and they can be assigned to variables, passed as arguments, 
+    and returned from other functions. */
 
 
 function greet(sudhir) {
