@@ -31,5 +31,30 @@ function loginUserMessage(userName = "sammy"){
 }
 console.log(loginUserMessage("sandy"))
 
+function calCartPrize(...num1){
+    return num1
+  }
+  //console.log(calCartPrize(200, 300, 400, 500, 600));
+  
+
+  const user = {
+    userName : "sudhir",
+    lastName : "mhamane"
+  }
+
+  function handleObjects(anyObject){
+    //console.log(`username is ${anyObject.userName} and the last name is ${anyObject.lastName}`);
+    
+  }
+
+  handleObjects(user)
+
+  const myArray = [100, 200, 300, 400]
+
+  function returnSecondValue(getArray){
+    return getArray[2]
+  }
+
+  console.log(returnSecondValue(myArray))
 
   
