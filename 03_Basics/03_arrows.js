@@ -30,7 +30,9 @@ const user ={
   // arrow in JS : 
   
   /* 
-  Arrow functions are a concise way to write functions in JavaScript, introduced in ES6 (ECMAScript 2015). They provide a shorter syntax compared to traditional function expressions and also have different behavior with respect to the this keyword.
+  Arrow functions are a concise way to write functions in JavaScript, introduced in ES6 (ECMAScript 2015). 
+  They provide a shorter syntax compared to traditional function expressions and also have different behavior
+  with respect to the this keyword.
   */
   
   //Traditional function:
@@ -50,9 +52,13 @@ const user ={
   /*
   In an interview, if you're asked why arrow functions don't have their own this, here's how you can explain it:
   
-  Arrow functions are designed to be more concise, but they also behave differently when it comes to this. Unlike regular functions, arrow functions don’t have their own this context. Instead, they inherit this from the surrounding scope where they are defined. This is called lexical scoping.
+  Arrow functions are designed to be more concise, but they also behave differently when it comes to this. Unlike regular functions,
+  arrow functions don’t have their own this context. Instead, they inherit this from the surrounding scope where they are defined. 
+  This is called lexical scoping.
   
-  In traditional functions, this refers to the object that calls the function. But in arrow functions, this is fixed and can't change, making them very useful when you want to ensure this refers to the same thing across different parts of your code, like in callbacks or event handlers.
+  In traditional functions, this refers to the object that calls the function. But in arrow functions, this is fixed and can't change, 
+  making them very useful when you want to ensure this refers to the same thing across different parts of your code, 
+  like in callbacks or event handlers.
   
   Here's a quick example:
   
@@ -63,7 +69,8 @@ const user ={
     console.log(this.age);
   }, 1000);
   }
-  In this example, using an arrow function inside setInterval keeps this referring to the Person object, which wouldn't happen with a regular function.
+  In this example, using an arrow function inside setInterval keeps this referring to the Person object, 
+  which wouldn't happen with a regular function.
   
   In short, arrow functions were designed this way to simplify certain use cases where you want this to behave consistently.
   */
@@ -92,8 +99,3 @@ const user ={
   const addTwo = (num1,num2) => ({userName:"sudhir"})
   
   console.log(addTwo(34,43));
-  
-  
-  
-  
-  
