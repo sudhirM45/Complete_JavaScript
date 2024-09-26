@@ -1,5 +1,6 @@
 /*
- In JavaScript, scope refers to the visibility or accessibility of variables, functions, and objects in different parts of the code. There are mainly three types of scopes:
+ In JavaScript, scope refers to the visibility or accessibility of variables, functions, and objects in different parts of the code. 
+ There are mainly three types of scopes:
  1. Global Scope
  2. Function Scope
  3. Block Scope
