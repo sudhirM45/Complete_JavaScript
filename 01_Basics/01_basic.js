@@ -50,3 +50,28 @@ console.log(sym1 === sym2); // false
 Symbols are typically used for defining private properties or methods on objects, 
 ensuring they don't conflict with other property keys.
 */
+
+
+/*
+
+JSON Notes:
+Data Types:
+
+Strings (must be in double quotes)
+Numbers
+Booleans (true/false)
+Arrays
+Objects
+Null (null)
+Syntax Rules:
+
+Data is represented as key-value pairs (key and value are separated by a colon :).
+Keys must be strings enclosed in double quotes (").
+Values can be any valid JSON data type.
+Common Uses:
+
+APIs: Used to exchange data between server and client.
+LocalStorage: Can be used to store structured data in browsers.
+Configuration Files: Commonly used for application settings.
+
+*/
