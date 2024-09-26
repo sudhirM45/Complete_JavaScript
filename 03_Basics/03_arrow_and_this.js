@@ -1,25 +1,25 @@
 const user ={
-    userName: "Sudhir",
-    price: 899,
+  userName: "Sudhir",
+  price: 899,
 
-    welcomeMessage: function(){
-        //console.log(`${this.userName},welcome to website.`);
-        //console.log(this);
-        
-    }
-    // current context is in between the curly bresses
-    // outside this no connection is there.
+  welcomeMessage: function(){
+      //console.log(`${this.userName},welcome to website.`);
+      //console.log(this);
+      
+  }
+  // current context is in between the curly bresses
+  // outside this no connection is there.
 
-    // curr context is like username or the price.
-    // so access the variables inside this scopes at which
-    // 'this' keyword is used.
+  // curr context is like username or the price.
+  // so access the variables inside this scopes at which
+  // 'this' keyword is used.
 }
 
 // user.welcomeMessage() // this prints : wec,sudhir to website.
 
 // if someone change the username
 // user.userName = "suraj"
- //user.welcomeMessage() // it gives wec,suraj to web.
+//user.welcomeMessage() // it gives wec,suraj to web.
 
 // console.log(this);
 // this single line give the output empty scope
@@ -57,11 +57,11 @@ In traditional functions, this refers to the object that calls the function. But
 Here's a quick example:
 
 function Person() {
-  this.age = 0;
-  setInterval(() => {
-    this.age++; // `this` refers to the Person object
-    console.log(this.age);
-  }, 1000);
+this.age = 0;
+setInterval(() => {
+  this.age++; // `this` refers to the Person object
+  console.log(this.age);
+}, 1000);
 }
 In this example, using an arrow function inside setInterval keeps this referring to the Person object, which wouldn't happen with a regular function.
 
