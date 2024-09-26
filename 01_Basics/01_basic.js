@@ -27,6 +27,8 @@ const person = {
 Here, person is an object with properties name and age, and a method greet().
 */
 
+/*
+
 // 4.symbol in JS : 
 // A Symbol in JavaScript is a unique and immutable primitive value used to create unique property
 // keys for objects. Symbols are often used to avoid property name collisions in objects, 
@@ -52,6 +54,7 @@ ensuring they don't conflict with other property keys.
 */
 
 
+<<<<<<< HEAD
 /*
 
 JSON Notes:
@@ -63,15 +66,37 @@ Booleans (true/false)
 Arrays
 Objects
 Null (null)
+=======
+JSON Notes:
+Data Types:
+
+   Strings (must be in double quotes)
+   Numbers
+   Booleans (true/false)
+   Arrays
+   Objects
+   Null (null)
+
+   
+>>>>>>> 5d7e53663bb1617cce9f5e90d4461dad4315a5f5
 Syntax Rules:
 
 Data is represented as key-value pairs (key and value are separated by a colon :).
 Keys must be strings enclosed in double quotes (").
 Values can be any valid JSON data type.
+<<<<<<< HEAD
 Common Uses:
+=======
+   
+ Common Uses:
+>>>>>>> 5d7e53663bb1617cce9f5e90d4461dad4315a5f5
 
 APIs: Used to exchange data between server and client.
 LocalStorage: Can be used to store structured data in browsers.
 Configuration Files: Commonly used for application settings.
 
+<<<<<<< HEAD
 */
+=======
+*/
+>>>>>>> 5d7e53663bb1617cce9f5e90d4461dad4315a5f5
