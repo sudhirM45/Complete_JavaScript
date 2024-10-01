@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM WITH CHAI AUR CODE</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ui class="language">
+        <li>Javascript</li>
+    </ui>
+</body>
+<script>
+    function addLanguage(langName){
+        const li = document.createElement('li')
+        li.innerHTML = `${langName}`
+        document.querySelector('.language').appendChild(li)
+    }
+    addLanguage("python")
+    addLanguage("java")
+
+    function addOptLang(langName){
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+    }
+    addOptLang('C++')
+    addOptLang('React')
+
+    //edit the ele
+
+    const secLang = document.querySelector("li:nth-child(2)")
+    // console.log(secLang);
+    
+    // secLang.innerHTML = "Spring Boot"
+    const newLi = document.createElement('li')
+    newLi.textContent = "mojo"
+    secLang.replaceWith(newLi)
+
+    // edit:
+    const firstLang = document.querySelector("li:first-child")
+    // console.log(firstLang);
+    firstLang.outerHTML = "<li>sudhir</li>"
+    firstLang.textContent = "typeScript"
+
+    // remove
+
+    const lastLang = document.querySelector("li:last-child")
+    lastLang.remove()
+</script>
+</html>
