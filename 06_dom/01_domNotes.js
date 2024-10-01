@@ -84,7 +84,7 @@ Copy code
 
 
 5. Creating and Inserting New Elements
-You can create new DOM elements and add them to the document dynamically.
+    You can create new DOM elements and add them to the document dynamically.
 
     ~Creating Elements:
     let newElement = document.createElement("div");
@@ -153,7 +153,8 @@ You can create new DOM elements and add them to the document dynamically.
 
 Conclusion:
 
-    The DOM is the key interface that connects web documents with JavaScript, enabling dynamic content, interactivity, and real-time updates. Understanding how to manipulate the DOM effectively allows developers to create engaging web applications.
+    The DOM is the key interface that connects web documents with JavaScript, enabling dynamic content, interactivity, 
+    and real-time updates. Understanding how to manipulate the DOM effectively allows developers to create engaging web applications.
 
 
     
